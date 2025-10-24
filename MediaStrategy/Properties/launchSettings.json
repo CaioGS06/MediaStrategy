@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "MyConsoleApp": {
+    "MediaStrategy": {
       "commandName": "Project",
       "launchBrowser": false,
       "environmentVariables": {

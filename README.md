@@ -13,19 +13,19 @@ O projeto implementa diferentes estratégias para calcular a média de duas nota
 
 ```
 MediaStrategy
-├── src
-│   ├── App
-│   │   └── Program.cs              # Ponto de entrada da aplicação com testes
+├── MediaStrategy
+│   ├── Program.cs                  # Ponto de entrada da aplicação com testes
 │   ├── Model
 │   │   └── Disciplina.cs           # Classe que representa uma disciplina
 │   ├── Strategy
 │   │   ├── MediaStrategy.cs        # Interface IMediaStrategy
 │   │   ├── Aritmetica.cs           # Implementação da média aritmética
 │   │   └── Geometrica.cs           # Implementação da média geométrica
-│   └── Properties
-│       └── launchSettings.json     # Configurações de inicialização
-├── MediaStrategy.csproj            # Arquivo do projeto
+│   ├── Properties
+│   │   └── launchSettings.json     # Configurações de inicialização
+│   └── MediaStrategy.csproj        # Arquivo do projeto
 ├── MediaStrategy.sln               # Solução do projeto
+├── .gitignore                      # Arquivos ignorados pelo Git
 └── README.md                       # Documentação do projeto
 ```
 
